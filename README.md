@@ -1,28 +1,20 @@
-# Life Expectancy data mining
+# 项目描述:
 
-## Current work
-The current work includes data cleaning, 
-data visualization, 
-and utilizing models including Linear Regression, 
-ElasticNet, KNN, and LGBMRegressor to predict life expectancy values.
-Using four different types of regression models for prediction.
-A basic framework has been built, and subsequent research needs to be based on specific issues.
-### Source code
-The code part contains most of the tools that need to be used, which can be further called and modified to solve subsequent problems.
-```
-│  preprocess.py # data cleaning.
-│  plot.py # all drawing functions.
-│  predict.py # training and prediction of models.
-│  param.py # feature engineering
-│  main.py # coding here to solve quesion, empty now.
-│  readme.md
-│  Life Expectancy Data.csv
-```
-## Future work
-Drawing optimization in plot.py,
-complete the shap part of the plotting.
-It may be possible to use the world_map()
-to complete the visualization of other parts of interest.
-Complete the analysis of question in main.py.
-Explore more ways of feature engineering.
+这是一个支持人人对战，人机对战，查看对战记录和对战排名的五子棋小游戏。
 
+## 项目负责人：曹凡璞
+
+# 如何运行：
+
+## 开发环境配置：
+需要安装的库：sys，tkinter，pygame，tensorflow2.0，python版本3.6.5以上。
+
+## 运行程序：
+运行窗口.py文件，点击游戏界面中对应的按钮即可。打开History文件夹，还可以根据时间来查看对应战局的结果。
+
+- 人机对战：
+  该界面共有三个按钮：开始，重置和悔棋。点击开始之后黑方（电脑）先手，开始游戏；点击悔棋按钮即可悔棋；点击重置按钮清空棋盘重新开始。
+
+# 项目备注：
+运行wzq.py文件中的play函数可直接进行人人对战
+运行AI.py文件中的play函数可直接进行人机对战
